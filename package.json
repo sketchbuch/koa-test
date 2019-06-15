@@ -1,0 +1,23 @@
+{
+  "author": "sketcbuch",
+  "description": "Create a simple rest API with KOA",
+  "keywords": [],
+  "license": "MIT",
+  "main": "src/app.js",
+  "name": "koa-test",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "test": "jest --watchAll"
+  },
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "nodemon": "^1.19.1"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "supertest": "^4.0.2"
+  }
+}
